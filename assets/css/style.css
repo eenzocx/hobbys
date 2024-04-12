@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+#index{
+    background-color: #16161D;
+}
+#hb1 {
+    background-color: rgb(24, 24, 55);
+}
+
+#hb2 {
+    background-color: rgb(202, 120, 19);
+}
+
+#hb3 {
+    background-color: rgb(38, 141, 38);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.title {
+    margin-bottom: 75px;
+    letter-spacing: .2rem;
+    font-size: 30px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.titleh1 {
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+.title > h1 {
+    margin-bottom: 1rem;
+}
+
+.container-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 1rem;
+    overflow: inherit;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3rem;
+    transition: all .5s ease;
+}
+
+.box:hover {
+    opacity: 30%;
+}
+
+.box1 {
+    background-image: url(../img/dragonballlegends.jpg);   
+}
+.box2 {
+    background-image: url(../img/lol.webp);   
+}
+.box3 {
+    background-image: url(../img/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.avif);   
+}
+
+.box img {
+    border-radius: 3rem;
+
+}
+
+.container-comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.comment:nth-child(1) {
+    margin-top: 3rem;
+}
+
+.comment {
+    padding: 1rem;
+    width: 1200px;
+    border: 3px solid #fff;
+    margin-bottom: 3rem;
+}
+
+.comment h1 {
+    margin-bottom: 1rem;
+}
+
+.comment p {
+    font-size: 1.5rem;
+}
+
+.comment i {
+    color: yellow;
+}
+
